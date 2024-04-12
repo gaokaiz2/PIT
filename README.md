@@ -1,6 +1,6 @@
 ## Overview
 
-This repo is for the SOSP'23 artifact evaluation of paper "PIT: Optimization of Dynamic Sparse Deep Learning Models via Permutation Invariant Transformation".
+This repo is for the reproducing of "PIT: Optimization of Dynamic Sparse Deep Learning Models via Permutation Invariant Transformation". And everything here is a copy from the PIT under SparTA, and I am just using this repo as reproducing.
 
 ## Evaluation Setup
 
