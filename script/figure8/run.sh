@@ -4,9 +4,9 @@ conda activate artifact
 
 pip install git+https://github.com/iofu728/transformers.git@v4.25.1_PIT triton==2.0.0.dev20221030
 
-BATCHS=(8 32)
+BATCHS=(1 4)
 USE_FP16S=(True False)
-EXPERT_NUMBERS=(64 128 256)
+EXPERT_NUMBERS=(8 16 32)
 
 for batch in ${BATCHS[@]}; do
     for use_fp16 in ${USE_FP16S[@]}; do
